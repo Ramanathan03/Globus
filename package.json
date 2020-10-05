@@ -8,7 +8,7 @@
   },
   
   "scripts": {
-    "start": "next",
+    "start": "next start -p $PORT",
     "dev": "next",
     "build":"next build",
     "heroku-postbuild": "npm run build"
