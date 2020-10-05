@@ -2,13 +2,16 @@
   "name": "globus",
   "version": "1.0.0",
   "description": "",
+   "engines": {
+    "npm": "5.7.1",
+    "node": "12.16.2"
+  },
   "main": "index.js",
   "scripts": {
     "start": "next",
     "dev": "next",
     "build":"next build",
     "heroku-postbuild": "npm run build",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "author": "ram",
   "license": "ISC",
